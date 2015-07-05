@@ -20,7 +20,7 @@ The Unix shell has been around longer than most of its users have been alive. It
 ## Version control using Git and GitHub (weeks 3-4)
 Students will be expected to have GitHub accounts.  GitHub account has become the de factor CV for anyone seeking to get a job as a data scientist (most job postings will expect candidate to submit link to GitHub account).
 
-![git vs github](http://www.indeed.com/jobtrends?q=git%2C+github&l=&relative=1)
+![Git and Github job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=git+and+github&relative=1)
 
 ### Topics
 
