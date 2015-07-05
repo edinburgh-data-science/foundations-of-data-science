@@ -2,18 +2,21 @@
 
 Basically I want to teach all of the foundational concepts that students will need in courses 2 and 3. 
 
-## Introduction to Unix Shell (weeks 1-2)
+## Unix Shell (weeks 1-2)
 
-## Introduction to version control using Git and GitHub (weeks 3-4)
+## Version control using Git and GitHub (weeks 3-4)
 
-## Introduction to programming using Python (weeks 5-7)
+## Programming using Python (weeks 5-7)
+![Python vs. R jobs](http://www.indeed.com/trendgraph/jobgraph.png?q=Python%2C+R)
 
-## Introduction to databases (weeks 8-10)
-The ability to work with databases is a hugely important skill for any budding data scientist.  Weeks 8-10 of the course will focus on relational databases using SQL.  
+## Relational databases (weeks 8-10)
+Relational databases are a common way to store large data sets with complex structure. The ability to work with databases is a hugely important skill for any budding data scientist.  Weeks 8-10 of the course will focus on relational databases using SQL.
+
 ![SQL vs. NoSQL jobs](http://www.indeed.com/trendgraph/jobgraph.png?q=SQL%2C+NoSQL)
 
 ...industry job trends 
-![SQL vs. NoSQL jobs](http://www.indeed.com/trendgraph/jobgraph.png?q=SQL%2C+NoSQL&relative=1)
+
+![SQL vs. NoSQL job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=SQL%2C+NoSQL&relative=1)
 
 1. [Selecting Data](http://swcarpentry.github.io/sql-novice-survey/01-select.html)
 2. [Sorting and Removing Duplicates](http://swcarpentry.github.io/sql-novice-survey/02-sort-dup.html)
