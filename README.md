@@ -1,4 +1,4 @@
-# So you think you want to be a data scientist?
+# So, you think you want to be a data scientist?
 
 This course would teach the foundational concepts and tools used by a data scientist: Unix shell, version control, programming, and database management. Familiarity with these concepts and tools will necessary in order to take courses 2 and 3.
 
