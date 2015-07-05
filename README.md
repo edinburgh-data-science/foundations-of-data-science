@@ -1,6 +1,6 @@
 # So you think you want to be a data scientist?
 
-This course would teach the foundational concepts and tools used by data scientist: Unix shell, version control, programming, and database management. Familiarity with these concepts and tools will necessary in order to take courses 2 and 3.
+This course would teach the foundational concepts and tools used by a data scientist: Unix shell, version control, programming, and database management. Familiarity with these concepts and tools will necessary in order to take courses 2 and 3.
 
 I covered most of this material in the first 3 days of the computational methods workshop. The idea is that I would cover largely the same foundational material but at a *much* slower pace befitting an audience of first year undergraduates. I would also re-write, where necessary, the Software Carpentry lecture material in order to better motivate the example use-cases for an economic audience.  All example use cases would involve grabbing raw economomic data from the web, cleaning the raw data, and some *basic* exploratory data analysis (i.e., descriptive statistics oand data visualization).
 
