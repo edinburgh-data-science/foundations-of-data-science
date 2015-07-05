@@ -2,7 +2,9 @@
 
 This course would teach the foundational concepts and tools used in data science: Unix shell, version control, programming, and database management. Familiarity with these concepts and tools will necessary in order to take courses 2 and 3.
 
-I covered most of this material in the first 3 days of the computational methods workshop. The idea is that, for this first course, I would cover largely the same material but at a *much* slower pace. I also plan to re-write, where necessary, the Software Carpentry lectures in order to better motivate the example use-cases for an economic audience.
+I covered most of this material in the first 3 days of the computational methods workshop. The idea is that I would cover largely the same material but at a *much* slower pace given an audience of first year undergraduates. I also plan to re-write, where necessary, the Software Carpentry lecture material in order to better motivate the example use-cases for an economic audience.
+
+Students would expected to bring their own computers to class. Ideally I would like to have a ["flipped classroom."](https://en.wikipedia.org/wiki/Flipped_classroom) I would assign readings, video lectures, and problem sets for students to cover on their own outside of class. Lectures meanwhile would focus entirely on practical applications.
 
 ## Unix Shell (weeks 1-2)
 The Unix shell has been around longer than most of its users have been alive. It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes. More importantly, it helps them combine existing programs in new ways and automate repetitive tasks so that they don’t have to type the same things over and over again. Effective use of the shell is so fundamental to data science that [Jeroen Janssens](http://jeroenjanssens.com/) has written an entire book called [*Data Science at the Command Line*](http://datascienceatthecommandline.com/) on how to use the shell and command line programs that extend it.  Use of the shell is also a pre-requisite for using a range of other powerful tools and computing resources (including “high-performance computing” supercomputers) that are widely used in industry. These lessons will start students on a path towards using these resources effectively.
@@ -18,7 +20,7 @@ The Unix shell has been around longer than most of its users have been alive. It
 7. [Finding Things](http://swcarpentry.github.io/shell-novice/06-find.html)
 
 ## Version control using Git and GitHub (weeks 3-4)
-Students will be expected to have GitHub accounts.  GitHub account has become the de factor CV for anyone seeking to get a job as a data scientist (most job postings will expect candidate to submit link to GitHub account).
+Version control is the lab notebook of the digital world: it’s what professionals use to keep track of what they’ve done and to collaborate with other people. Every large software development project relies on it, and most programmers use it for their small jobs as well. And it isn’t just for software: books, papers, small data sets, and anything that changes over time or needs to be shared can and should be stored in a version control system.
 
 ![Git and Github job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=git+and+github&relative=1)
 
@@ -39,6 +41,7 @@ Students will be expected to have GitHub accounts.  GitHub account has become th
 
 ## Programming using Python (weeks 5-7)
 Will use Python 3.
+
 ![Python vs. R job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=Python%2C+R&relative=1)
 
 ### Topics covered
