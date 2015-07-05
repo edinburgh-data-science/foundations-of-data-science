@@ -39,7 +39,7 @@ Students will be expected to have GitHub accounts.  GitHub account has become th
 
 ## Programming using Python (weeks 5-7)
 Will use Python 3.
-![Python vs. R jobs](http://www.indeed.com/trendgraph/jobgraph.png?q=Python%2C+R)
+![Python vs. R job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=Python%2C+R&relative=1)
 
 ### Topics covered
 
