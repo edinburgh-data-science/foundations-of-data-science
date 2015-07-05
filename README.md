@@ -2,7 +2,7 @@
 
 This course would teach the foundational concepts and tools used in data science: Unix shell, version control, programming, and database management. Familiarity with these concepts and tools will necessary in order to take courses 2 and 3.
 
-I covered most of this material in the first 3 days of the computational methods workshop. The idea is that I would cover largely the same material but at a *much* slower pace given an audience of first year undergraduates. I also plan to re-write, where necessary, the Software Carpentry lecture material in order to better motivate the example use-cases for an economic audience.
+I covered most of this material in the first 3 days of the computational methods workshop. The idea is that I would cover largely the same foundational material but at a *much* slower pace befitting an audience of first year undergraduates. I would also re-write, where necessary, the Software Carpentry lecture material in order to better motivate the example use-cases for an economic audience.
 
 Students would expected to bring their own computers to class. Ideally I would like to have a ["flipped classroom."](https://en.wikipedia.org/wiki/Flipped_classroom) I would assign readings, video lectures, and problem sets for students to cover on their own outside of class. Lectures meanwhile would focus entirely on practical applications.
 
@@ -40,7 +40,14 @@ Version control is the lab notebook of the digital world: it’s what profession
 12. [Hosting](http://swcarpentry.github.io/git-novice/12-hosting.html)
 
 ## Programming using Python (weeks 5-7)
-Will use Python 3.
+The best way to learn how to program is to do something useful, so this introduction to Python is built around a common scientific task: data analysis. The real goal isn’t to teach you Python, but to teach you the basic concepts that all programming depends on. I would use Python in my lessons because:
+
+1. we have to use something for examples;
+2. it’s free, well-documented, and runs almost everywhere;
+3. it has a large (and growing) user base among scientists; and
+4. experience shows that it’s easier for novices to pick up than most other languages.
+
+The other obvious candidate would be *R*, however I think that teaching Python makes our students better prepared for the job market.
 
 ![Python vs. R job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=Python%2C+R&relative=1)
 
