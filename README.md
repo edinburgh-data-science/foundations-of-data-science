@@ -1,9 +1,9 @@
-# Foundations
+# Foundations of data science
 
-Basically I want to teach the foundational concepts and tools used in data science: Unix shell, version control, programming, and database management. Familiarity with these concepts and tools will necessary in order to take courses 2 and 3. 
+This course teaches the foundational concepts and tools used in data science: Unix shell, version control, programming, and database management. Familiarity with these concepts and tools will necessary in order to take courses 2 and 3. 
 
 ## Unix Shell (weeks 1-2)
-The Unix shell has been around longer than most of its users have been alive. It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes. More importantly, it helps them combine existing programs in new ways and automate repetitive tasks so that they don’t have to type the same things over and over again. Effective use of the shell is so fundamental to data science that [Jeroen Janssens](http://jeroenjanssens.com/) has written an entire book called [*Data science from the command line*](http://datascienceatthecommandline.com/). Use of the shell is also a pre-requisite for using a range of other powerful tools and computing resources (including “high-performance computing” supercomputers) that are widely used in industry. These lessons will start you on a path towards using these resources effectively.
+The Unix shell has been around longer than most of its users have been alive. It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes. More importantly, it helps them combine existing programs in new ways and automate repetitive tasks so that they don’t have to type the same things over and over again. Effective use of the shell is so fundamental to data science that [Jeroen Janssens](http://jeroenjanssens.com/) has written an entire book called [*Data Science at the Command Line*](http://datascienceatthecommandline.com/). Use of the shell is also a pre-requisite for using a range of other powerful tools and computing resources (including “high-performance computing” supercomputers) that are widely used in industry. These lessons will start you on a path towards using these resources effectively.
 
 ### Topics covered
 
@@ -23,6 +23,19 @@ Students will be expected to have GitHub accounts.  GitHub account has become th
 ## Programming using Python (weeks 5-7)
 Will use Python 3.
 ![Python vs. R jobs](http://www.indeed.com/trendgraph/jobgraph.png?q=Python%2C+R)
+
+### Topics covered
+
+1. [Analyzing Patient Data](http://swcarpentry.github.io/python-novice-inflammation/01-numpy.html)
+2. [Repeating Actions with Loops](http://swcarpentry.github.io/python-novice-inflammation/02-loop.html)
+3. [Storing Multiple Values in Lists](http://swcarpentry.github.io/python-novice-inflammation/03-lists.html)
+4. [Analyzing Data from Multiple Files](http://swcarpentry.github.io/python-novice-inflammation/04-files.html)
+5. [Making Choices](http://swcarpentry.github.io/python-novice-inflammation/05-cond.html)
+6. [Creating Functions](http://swcarpentry.github.io/python-novice-inflammation/06-func.html)
+7. [Errors and Exceptions](http://swcarpentry.github.io/python-novice-inflammation/07-errors.html)
+8. [Defensive Programming](http://swcarpentry.github.io/python-novice-inflammation/08-defensive.html)
+9. [Debugging](http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html)
+10. [Command-Line Programs](http://swcarpentry.github.io/python-novice-inflammation/10-cmdline.html)
 
 ## Relational databases (weeks 8-10)
 Relational databases are a common way to store large data sets with complex structure. The ability to work with databases is a hugely important skill for any budding data scientist.  Weeks 8-10 of the course will focus on relational databases using SQL.
