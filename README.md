@@ -1,12 +1,12 @@
-# Foundations of data science
+# So you think you want to be a data scientist?
 
-This course would teach the foundational concepts and tools used in data science: Unix shell, version control, programming, and database management. Familiarity with these concepts and tools will necessary in order to take courses 2 and 3.
+This course would teach the foundational concepts and tools used by data scientist: Unix shell, version control, programming, and database management. Familiarity with these concepts and tools will necessary in order to take courses 2 and 3.
 
-I covered most of this material in the first 3 days of the computational methods workshop. The idea is that I would cover largely the same foundational material but at a *much* slower pace befitting an audience of first year undergraduates. I would also re-write, where necessary, the Software Carpentry lecture material in order to better motivate the example use-cases for an economic audience.
+I covered most of this material in the first 3 days of the computational methods workshop. The idea is that I would cover largely the same foundational material but at a *much* slower pace befitting an audience of first year undergraduates. I would also re-write, where necessary, the Software Carpentry lecture material in order to better motivate the example use-cases for an economic audience.  All example use cases would involve grabbing raw economomic data from the web, cleaning the raw data, and some *basic* exploratory data analysis (i.e., descriptive statistics oand data visualization).
 
-Students would expected to bring their own computers to class. Ideally I would like to have a ["flipped classroom."](https://en.wikipedia.org/wiki/Flipped_classroom) I would assign readings, video lectures, and problem sets for students to cover on their own outside of class. Lectures meanwhile would focus entirely on practical applications.
+Students would be expected to bring their own computers to class. Ideally I would like to have a ["flipped classroom"](https://en.wikipedia.org/wiki/Flipped_classroom): I would assign readings, video lectures, and problem sets for students to cover on their own outside of class; lectures meanwhile would focus entirely on practical applications.
 
-## Unix Shell (weeks 1-2)
+## Unix Shell (weeks 1-3)
 The Unix shell has been around longer than most of its users have been alive. It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes. More importantly, it helps them combine existing programs in new ways and automate repetitive tasks so that they don’t have to type the same things over and over again. Effective use of the shell is so fundamental to data science that [Jeroen Janssens](http://jeroenjanssens.com/) has written an entire book called [*Data Science at the Command Line*](http://datascienceatthecommandline.com/) on how to use the shell and command line programs that extend it.  Use of the shell is also a pre-requisite for using a range of other powerful tools and computing resources (including “high-performance computing” supercomputers) that are widely used in industry. These lessons will start students on a path towards using these resources effectively.
 
 ### Topics covered
@@ -19,7 +19,7 @@ The Unix shell has been around longer than most of its users have been alive. It
 6. [Shell Scripts](http://swcarpentry.github.io/shell-novice/05-script.html)
 7. [Finding Things](http://swcarpentry.github.io/shell-novice/06-find.html)
 
-## Version control using Git and GitHub (weeks 3-4)
+## Version control using Git and GitHub (weeks 4-5)
 Version control is the lab notebook of the digital world: it’s what professionals use to keep track of what they’ve done and to collaborate with other people. Every large software development project relies on it, and most programmers use it for their small jobs as well. And it isn’t just for software: books, papers, small data sets, and anything that changes over time or needs to be shared can and should be stored in a version control system.
 
 ![Git and Github job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=git+and+github&relative=1)
@@ -39,7 +39,7 @@ Version control is the lab notebook of the digital world: it’s what profession
 11. [Licensing](http://swcarpentry.github.io/git-novice/11-licensing.html)
 12. [Hosting](http://swcarpentry.github.io/git-novice/12-hosting.html)
 
-## Programming using Python (weeks 5-7)
+## Programming using Python (weeks 6-8)
 The best way to learn how to program is to do something useful, so this introduction to Python is built around a common scientific task: data analysis. The real goal isn’t to teach you Python, but to teach you the basic concepts that all programming depends on. I would use Python in my lessons because:
 
 1. we have to use something for examples;
@@ -64,14 +64,18 @@ The other obvious candidate would be *R*, however I think that teaching Python m
 9. [Debugging](http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html)
 10. [Command-Line Programs](http://swcarpentry.github.io/python-novice-inflammation/10-cmdline.html)
 
-## Relational databases (weeks 8-10)
-Relational databases are a common way to store large data sets with complex structure and are widely used in private industry. The ability to work with databases is a hugely important skill for any budding data scientist.  Weeks 8-10 of the course will focus on relational databases using SQL.
+## Relational databases (weeks 9-10)
+Three common options for storage are text files, spreadsheets, and databases. Text files are easiest to create, and work well with version control, but then we would have to build search and analysis tools ourselves. Spreadsheets are good for doing simple analyses, but they don’t handle large or complex data sets well. Databases, however, include powerful tools for search and analysis, and can handle large, complex data sets. These lessons will show how to use an SQL database to explore balance sheet data for U.S. banks.
+
+While SQL (and perhaps relational databases in general) are stll widely used in industry...
 
 ![SQL vs. NoSQL jobs](http://www.indeed.com/trendgraph/jobgraph.png?q=SQL%2C+NoSQL)
 
-...industry job trends 
+...the use of SQL databases declining relative to NoSQL databases is declinging rapidly.
 
 ![SQL vs. NoSQL job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=SQL%2C+NoSQL&relative=1)
+
+My current plan is to cover NoSql databases in the 3rd year course. A solid understanding of SQL databases will help students understand when and why one should prefer SQL or NoSQL for a particular problem.
 
 ### Topics covered
 
