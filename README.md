@@ -19,7 +19,10 @@ I covered most of this material in the first 3 days of the computational methods
 
 Students would be expected to bring their own computers to class. Ideally I would like to have a ["flipped classroom"](https://en.wikipedia.org/wiki/Flipped_classroom): I would assign readings, video lectures, and problem sets for students to cover on their own outside of class; lectures meanwhile would focus entirely on practical applications.
 
-## Unix Shell (weeks 1-3)
+## Shock and awe (week 1)
+The first week of the course would be spent impressing students with all of the cool things that they will learn how to do during the course.
+
+## Unix Shell (weeks 2-4)
 The Unix shell has been around longer than most of its users have been alive. It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes. More importantly, it helps them combine existing programs in new ways and automate repetitive tasks so that they don’t have to type the same things over and over again. Effective use of the shell is so fundamental to data science that [Jeroen Janssens](http://jeroenjanssens.com/) has written an entire book called [*Data Science at the Command Line*](http://datascienceatthecommandline.com/) on how to use the shell and command line programs that extend it.  Use of the shell is also a pre-requisite for using a range of other powerful tools and computing resources (including “high-performance computing” supercomputers) that are widely used in industry. These lessons will start students on a path towards using these resources effectively.
 
 ### Topics covered
@@ -34,7 +37,7 @@ The Unix shell has been around longer than most of its users have been alive. It
 
 I would re-write all of the motivating examples in lessons 6 and 7 to make use of material from [*Data Science at the Command Line*](http://datascienceatthecommandline.com/) that is more economics focused.
 
-## Programming using Python (weeks 4-8)
+## Programming using Python (weeks 5-8)
 The best way to learn how to program is to do something useful, so this introduction to Python is built around a common scientific task: data analysis. The real goal isn’t to teach you Python, but to teach you the basic concepts that all programming depends on. I would use Python in my lessons because:
 
 1. we have to use something for examples;
