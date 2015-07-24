@@ -1,8 +1,21 @@
 # So, you think you want to be a data scientist?
 
-This course would teach the foundational concepts and tools used by a data scientist: Unix shell, version control, programming, and database management. Familiarity with these concepts and tools will necessary in order to take courses 2 and 3.
+## What is data science?
+I follow [Mason and Wiggins (2010)](http://www.dataists.com/2010/09/a-taxonomy-of-data-science/) and define data science as OSEMN...
 
-I covered most of this material in the first 3 days of the computational methods workshop. The idea is that I would cover largely the same foundational material but at a *much* slower pace befitting an audience of first year undergraduates. I would also re-write, where necessary, the Software Carpentry lecture material in order to better motivate the example use-cases for an economic audience.  All example use cases would involve grabbing raw economomic data from the web, cleaning the raw data, and some *basic* exploratory data analysis (i.e., descriptive statistics oand data visualization).
+1. Obtaining data
+2. Scrubbing data
+3. Exploring data
+4. Modeling data
+5. Interpreting data
+
+...a good data scientist needs to be able to do all of these things well and this first-year undergraduate course would teach the foundational concepts and tools that a data scientist would use in order to accomplish steps 1-3 in the above data analysis pipeline.  While the second-year and third-year courses would cover the entire data analysis pipeline (using increasingly sophisticated tools/techniques) the focus of these courses would be on steps 4 and 5 (particularly in the third-year course). Idea is that after completion of all three courses, a student should be capable of successfully completing a substantive data science project as an honours thesis.
+
+## Course syllabus
+
+This course would teach the foundational concepts and tools used by a data scientist: Unix shell, version control, and programming. Familiarity with these concepts and tools will necessary in order to take courses 2 and 3.
+
+I covered most of this material in the first 3 days of the computational methods workshop. The idea is that I would cover largely the same foundational material but at a *much* slower pace befitting an audience of first year undergraduates. I would also re-write, where necessary, the Software Carpentry lecture material in order to better motivate the example use-cases for an economic audience.  All example use cases would involve grabbing raw economomic data from the web, cleaning the raw data, and some *basic* exploratory data analysis (i.e., descriptive statistics and data visualization).
 
 Students would be expected to bring their own computers to class. Ideally I would like to have a ["flipped classroom"](https://en.wikipedia.org/wiki/Flipped_classroom): I would assign readings, video lectures, and problem sets for students to cover on their own outside of class; lectures meanwhile would focus entirely on practical applications.
 
@@ -19,8 +32,37 @@ The Unix shell has been around longer than most of its users have been alive. It
 6. [Shell Scripts](http://swcarpentry.github.io/shell-novice/05-script.html)
 7. [Finding Things](http://swcarpentry.github.io/shell-novice/06-find.html)
 
-## Version control using Git and GitHub (weeks 4-5)
-Version control is the lab notebook of the digital world: it’s what professionals use to keep track of what they’ve done and to collaborate with other people. Every large software development project relies on it, and most programmers use it for their small jobs as well. And it isn’t just for software: books, papers, small data sets, and anything that changes over time or needs to be shared can and should be stored in a version control system.
+I would re-write all of the motivating examples in lessons 6 and 7 to make use of material from [*Data Science at the Command Line*](http://datascienceatthecommandline.com/) that is more economics focused.
+
+## Programming using Python (weeks 4-8)
+The best way to learn how to program is to do something useful, so this introduction to Python is built around a common scientific task: data analysis. The real goal isn’t to teach you Python, but to teach you the basic concepts that all programming depends on. I would use Python in my lessons because:
+
+1. we have to use something for examples;
+2. it’s free, well-documented, and runs almost everywhere;
+3. it has a large (and growing) user base among scientists; and
+4. experience shows that it’s easier for novices to pick up than most other languages.
+
+The other obvious candidate would be *R*, however I think that teaching Python makes our students better prepared for the job market. The reality is that a good data scientists should be competent in both, and an expert in one or the other. Strong case for switching from STATA to R for econometrics.
+
+![Python vs. R job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=Python%2C+R&relative=1)
+
+### Topics covered
+
+1. [Analyzing Patient Data](http://swcarpentry.github.io/python-novice-inflammation/01-numpy.html)
+2. [Repeating Actions with Loops](http://swcarpentry.github.io/python-novice-inflammation/02-loop.html)
+3. [Storing Multiple Values in Lists](http://swcarpentry.github.io/python-novice-inflammation/03-lists.html)
+4. [Analyzing Data from Multiple Files](http://swcarpentry.github.io/python-novice-inflammation/04-files.html)
+5. [Making Choices](http://swcarpentry.github.io/python-novice-inflammation/05-cond.html)
+6. [Creating Functions](http://swcarpentry.github.io/python-novice-inflammation/06-func.html)
+7. [Errors and Exceptions](http://swcarpentry.github.io/python-novice-inflammation/07-errors.html)
+8. [Defensive Programming](http://swcarpentry.github.io/python-novice-inflammation/08-defensive.html)
+9. [Debugging](http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html)
+10. [Command-Line Programs](http://swcarpentry.github.io/python-novice-inflammation/10-cmdline.html)
+
+I plan to re-write the motivating examples in the above Python lessons in order to show students how to use the [Pandas](http://pandas.pydata.org/) library to efficiently obtain and scrub data.  Time would also be spent on exploratory data analysis and visualization using browser-based Python plotting libraries (specifically, [Matplotlib](http://matplotlib.org/), [MPLD3](http://mpld3.github.io/), [plotly](https://plot.ly/), and [Bokeh](http://bokeh.pydata.org/en/latest/))
+
+## Version control using Git and GitHub (weeks 9-10)
+Version control is the lab notebook of the digital world: it’s what professionals use to keep track of what they’ve done and to collaborate with other people. Every large software development project relies on it, and most programmers use it for their small jobs as well. And it isn’t just for software: books, papers, small data sets, and anything that changes over time or needs to be shared can and should be stored in a version control system. Additionally, a GitHub profile has become the de-facto CV for anyone looking for a job as a data scientist.
 
 ![Git and Github job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=git+and+github&relative=1)
 
@@ -39,53 +81,3 @@ Version control is the lab notebook of the digital world: it’s what profession
 11. [Licensing](http://swcarpentry.github.io/git-novice/11-licensing.html)
 12. [Hosting](http://swcarpentry.github.io/git-novice/12-hosting.html)
 
-## Programming using Python (weeks 6-8)
-The best way to learn how to program is to do something useful, so this introduction to Python is built around a common scientific task: data analysis. The real goal isn’t to teach you Python, but to teach you the basic concepts that all programming depends on. I would use Python in my lessons because:
-
-1. we have to use something for examples;
-2. it’s free, well-documented, and runs almost everywhere;
-3. it has a large (and growing) user base among scientists; and
-4. experience shows that it’s easier for novices to pick up than most other languages.
-
-The other obvious candidate would be *R*, however I think that teaching Python makes our students better prepared for the job market.
-
-![Python vs. R job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=Python%2C+R&relative=1)
-
-### Topics covered
-
-1. [Analyzing Patient Data](http://swcarpentry.github.io/python-novice-inflammation/01-numpy.html)
-2. [Repeating Actions with Loops](http://swcarpentry.github.io/python-novice-inflammation/02-loop.html)
-3. [Storing Multiple Values in Lists](http://swcarpentry.github.io/python-novice-inflammation/03-lists.html)
-4. [Analyzing Data from Multiple Files](http://swcarpentry.github.io/python-novice-inflammation/04-files.html)
-5. [Making Choices](http://swcarpentry.github.io/python-novice-inflammation/05-cond.html)
-6. [Creating Functions](http://swcarpentry.github.io/python-novice-inflammation/06-func.html)
-7. [Errors and Exceptions](http://swcarpentry.github.io/python-novice-inflammation/07-errors.html)
-8. [Defensive Programming](http://swcarpentry.github.io/python-novice-inflammation/08-defensive.html)
-9. [Debugging](http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html)
-10. [Command-Line Programs](http://swcarpentry.github.io/python-novice-inflammation/10-cmdline.html)
-
-## Relational databases (weeks 9-10)
-Three common options for storage are text files, spreadsheets, and databases. Text files are easiest to create, and work well with version control, but then we would have to build search and analysis tools ourselves. Spreadsheets are good for doing simple analyses, but they don’t handle large or complex data sets well. Databases, however, include powerful tools for search and analysis, and can handle large, complex data sets. These lessons will show how to use an SQL database to explore balance sheet data for U.S. banks.
-
-While SQL (and perhaps relational databases in general) are stll widely used in industry...
-
-![SQL vs. NoSQL jobs](http://www.indeed.com/trendgraph/jobgraph.png?q=SQL%2C+NoSQL)
-
-...the use of SQL databases declining relative to NoSQL databases is declinging rapidly.
-
-![SQL vs. NoSQL job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=SQL%2C+NoSQL&relative=1)
-
-My current plan is to cover NoSql databases in the 3rd year course. A solid understanding of SQL databases will help students understand when and why one should prefer SQL or NoSQL for a particular problem.
-
-### Topics covered
-
-1. [Selecting Data](http://swcarpentry.github.io/sql-novice-survey/01-select.html)
-2. [Sorting and Removing Duplicates](http://swcarpentry.github.io/sql-novice-survey/02-sort-dup.html)
-3. [Filtering](http://swcarpentry.github.io/sql-novice-survey/03-filter.html)
-4. [Calculating New Values](http://swcarpentry.github.io/sql-novice-survey/04-calc.html)
-5. [Missing Data](http://swcarpentry.github.io/sql-novice-survey/05-null.html)
-6. [Aggregation](http://swcarpentry.github.io/sql-novice-survey/06-agg.html)
-7. [Combining Data](http://swcarpentry.github.io/sql-novice-survey/07-join.html)
-8. [Data Hygiene](http://swcarpentry.github.io/sql-novice-survey/08-hygiene.html)
-9. [Creating and Modifying Data](http://swcarpentry.github.io/sql-novice-survey/09-create.html)
-10. [Programming with Databases](http://swcarpentry.github.io/sql-novice-survey/10-prog.html)
