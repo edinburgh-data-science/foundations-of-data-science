@@ -48,8 +48,6 @@ The best way to learn how to program is to do something useful, so this introduc
 
 The other obvious candidate would be *R*, however I think that teaching Python makes our students better prepared for the job market. The reality is that while most data scientists seem to be an expert in either Python or R, most data scientists are competent in both languages.
 
-![Python vs. R job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=Python%2C+R&relative=1)
-
 ##### Topics covered
 
 1. [Analyzing Patient Data](http://swcarpentry.github.io/python-novice-inflammation/01-numpy.html)
@@ -67,8 +65,6 @@ The above lessons are just an indication of what I would hope to cover. Note tha
 
 ### Version control using Git and GitHub (weeks 9-10)
 Version control is the lab notebook of the digital world: it’s what professionals use to keep track of what they’ve done and to collaborate with other people. Every large software development project relies on it, and most programmers use it for their small jobs as well. And it isn’t just for software: books, papers, small data sets, and anything that changes over time or needs to be shared can and should be stored in a version control system. Additionally, a GitHub profile has become the de-facto CV for anyone looking for a job as a data scientist.
-
-![Git and Github job growth](http://www.indeed.com/trendgraph/jobgraph.png?q=git+and+github&relative=1)
 
 ##### Topics
 
